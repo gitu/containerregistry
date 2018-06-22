@@ -80,7 +80,8 @@ py_library(
 py_library(
    name = "concurrent",
    srcs = glob(["**/*.py"]),
-   visibility = ["//visibility:public"]
+   visibility = ["//visibility:public"],
+   srcs_version = "PY2ONLY"
 )"""
   )
 
